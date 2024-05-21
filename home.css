@@ -1,0 +1,38 @@
+.one{
+    padding: 10px;
+    background: rebeccapurple;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+
+}
+.o1{
+ background: yellow;
+ padding: 20px;
+ border-radius: 20px;
+ margin: 10px;
+
+
+
+}
+.o1 p{
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+}
+.o2{
+    background-color: bisque;
+    width:35%;
+    align-items: end;
+    padding: 10px;
+}
+.o2 img{
+    width: 100%;
+    border-radius: 25px;
+}

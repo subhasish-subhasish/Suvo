@@ -1,0 +1,13 @@
+form{
+    background-color: aquamarine;
+    padding: 20px;
+}
+form label{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+}
+form input{
+    background-color: rgb(255, 247, 247);
+    padding: 10px;
+}

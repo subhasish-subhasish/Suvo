@@ -1,34 +1,69 @@
-body{
-  background-color: black;
-  color: white;
-}
 
-.first{
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  padding: 10px;
-}
-.fr{
-  flex: 1 0 50%;
-  background-color: gray;
-}
-.fl{
-  background-color: wheat;
-}
-.social{
-  background-color: rgb(0, 170, 255);
-  align-items: center;
-  padding: 20px;
-  margin: 20px;
 
-}
-.l2{
-  background-color: green;
-}
-.l3{
+/* header */
+nav{
   background-color: red;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;padding-right: 20px;
 }
-.r2 p{
-  background-color: blue;
+.active{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.topnav a:hover{
+  background-color: aqua;
+}
+
+.sub{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: White;
+
+}
+.topnav{
+  display: flex;
+  background-color: aqua;
+  justify-items: center;
+  padding: 10px;
+  align-self: center;
+  border-radius: 10px;
+}
+.topnav a{
+  background-color: white;
+  display: flex;
+  padding: 10px;padding-left: 25px;padding-right: 25px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.link{
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.link a{
+  padding: 10px;
+  background-color: white;
+  border-radius: 7px;
+}
+.fnote{
+  background-color: rgb(230, 221, 221);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
 }
