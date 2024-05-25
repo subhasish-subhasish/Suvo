@@ -1,0 +1,38 @@
+.education{
+    background-color:aqua;
+    padding: 20px;
+
+}
+.education div{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 15px;
+}
+.edu h3{
+    text-decoration: underline;
+}
+
+
+
+.extraskill{
+    margin-top: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+    padding-left: 20px;padding-right: 20px;
+
+}
+.extraskill h3{
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;padding-right: 20px;
+}
+.extraskill ol{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.extraskill ol li{
+    padding: 5px;
+}
