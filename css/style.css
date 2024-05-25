@@ -792,3 +792,13 @@ a:focus {
   color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+/* Self added */
+.social_box a{
+  margin: 10px; /* Adjust spacing as needed */
+  display: inline-block; /* Ensures spacing works in all browsers */
+}
+
