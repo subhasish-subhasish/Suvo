@@ -63,7 +63,7 @@ body {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   z-index: 1;
-  background-image: url(../images/heading-img.png);
+
   background-repeat: no-repeat;
 }
 
@@ -769,7 +769,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #211d25;
+  background-color: #4a474d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
