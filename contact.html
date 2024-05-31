@@ -27,8 +27,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-  <!-- javascript -->
-  <script src="js/script.js"></script>
+ 
 </head>
 
 <body class="sub_page">
@@ -96,7 +95,7 @@
           <div class="col-md-8 mx-auto">
             <form action="">
               <div class="contact_form-container">
-                <div>
+                <form id="myForm" onsubmit="return confirmSubmit()"></form>
                   <div>
                     <input type="text" id="name" placeholder="Name">
                   </div>
@@ -114,7 +113,7 @@
                       Send
                     </button>
                   </div>
-                </div>
+                </form>
               </div>
             </form>
           </div>
@@ -157,8 +156,8 @@
   <section class="container-fluid footer_section">
     <div class="container">
       <p>
-        &copy; 2019 All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        &copy; 2024 All Rights Reserved By
+        <a href="index.html">Subhaish Das</a>
       </p>
     </div>
   </section>
@@ -166,6 +165,8 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- javascript -->
+  <script type="text/javascript" src="js/script.js"></script>
 
 </body>
 
